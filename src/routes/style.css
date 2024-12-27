@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #c7f2e9; /* สีพื้นหลังที่ไม่ขาวล้วน */
+  color: #bcb7b7;
+ 
+}
+
+header {
+  background-color: #042747; /* สีพื้นหลังของ header */
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none; /* ไม่มีจุดในรายการ */
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline; /* แสดงรายการในแนวนอน */
+  margin: 0 15px; /* ระยะห่างระหว่างรายการ */
+}
+
+nav ul li a {
+  color: white; /* สีข้อความ */
+  text-decoration: none; /* ไม่มีขีดเส้นใต้ */
+  font-weight: bold;
+  transition: color 0.3s; /* การเปลี่ยนสีเมนู */
+}
+
+nav ul li a:hover {
+  color: #22aeca; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+main {
+  padding: 2em;
+  background-color: #d6fffe;
+  
+}
+
+section {
+  margin-bottom: 2em; /* ระยะห่างระหว่างส่วน */
+  padding: 1em;
+  background-color: #c6c6c6; /* สีพื้นหลังของแต่ละส่วน */
+  border-radius: 8px; /* มุมมน */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+section h1, section h2 {
+  color: #c1e9fd; /* สีของหัวข้อ */
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1em;
+  color: #fff;
+  background-color: #07ecd1; /* สีปุ่ม */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* การเปลี่ยนสีของปุ่ม */
+  
+}
+
+button:hover {
+  background-color: #86e4d6; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+.right-section {
+  display: flex; /* แสดงเนื้อหาในรูปแบบ Flexbox */
+  flex-direction: column; /* เรียงเนื้อหาในแนวตั้ง */
+  align-items: center; /* จัดตำแหน่งเนื้อหาให้อยู่กลาง */
+}
+
+.right-section img {
+  max-width: 100%; /* กำหนดให้รูปภาพขนาดสูงสุด 100% */
+  border-radius: 8px; /* มุมมนของรูปภาพ */
+}
+.headpic{
+  background: url(https://wallpapers.com/images/hd/lockers-background-6xwis4p1hfu0m88u.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  color:  #fff;
+  
+  
+
+  
+  /*box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);*/
+  
+}
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.text{
+  text-align: center;
+  padding-top: 280px;
+ 
+}
